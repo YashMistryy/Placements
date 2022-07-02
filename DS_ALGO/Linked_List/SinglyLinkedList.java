@@ -5,7 +5,7 @@ import java.util.concurrent.ThreadPoolExecutor.DiscardOldestPolicy;
 
 public class SinglyLinkedList {
     // for refrencing our linkedlist we use head
-    private static  ListNode head;
+    static  ListNode head;
 
    private static class ListNode {
          int data;
