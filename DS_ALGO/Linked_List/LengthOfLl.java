@@ -1,6 +1,5 @@
 package DS_ALGO.Linked_List;
 
-import java.util.List;
 
 public class LengthOfLl {
    static class ListNode{
