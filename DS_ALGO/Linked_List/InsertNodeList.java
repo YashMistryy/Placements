@@ -1,7 +1,6 @@
 package DS_ALGO.Linked_List;
 
-import java.beans.IndexedPropertyChangeEvent;
-import java.rmi.server.LogStream;
+
 
 public class InsertNodeList{
     static ListNode head = null;
