@@ -1,4 +1,4 @@
-package com.yash;
+package DS_ALGO;
 
 public class TowerOfHanoi {
     public static void main(String[] args) {
