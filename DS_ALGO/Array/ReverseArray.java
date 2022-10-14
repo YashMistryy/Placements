@@ -1,4 +1,3 @@
-package DS_ALGO.Array;
 
 
  class ReverseArray {

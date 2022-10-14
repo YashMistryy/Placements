@@ -1,4 +1,3 @@
-package DS_ALGO.Array;
 
 public class RemoveEvenArr {
 	static int[] removeEven(int[] arr) {

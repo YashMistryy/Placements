@@ -1,4 +1,4 @@
-package DS_ALGO.Linked_List;
+package Linked_List;
 
 import java.util.List;
 

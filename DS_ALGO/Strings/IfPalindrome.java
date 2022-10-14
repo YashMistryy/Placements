@@ -1,4 +1,4 @@
-package DS_ALGO.Strings;
+package Strings;
 
 
 public class IfPalindrome {

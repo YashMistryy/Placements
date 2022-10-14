@@ -1,4 +1,3 @@
-package DS_ALGO.Array;
 public class FindEvenDigitNums {
     public static void main(String[] args) {
         int[] nums = {12,3232,13131,23,465,67,68686,686,866,686,68,68,67676};

@@ -1,4 +1,3 @@
-package DS_ALGO.Array;
 
 public class ReverseArray2 {
     static void ReverseArr2(int[] arr,int start,int end){

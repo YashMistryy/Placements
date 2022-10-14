@@ -1,5 +1,4 @@
-package DS_ALGO.Linked_List;
-
+package Linked_List;
 public class DeleteNodeList{
     static ListNode head = null;
     static class ListNode{

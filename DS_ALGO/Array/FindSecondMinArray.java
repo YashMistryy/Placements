@@ -1,4 +1,3 @@
-package DS_ALGO.Array;
 
 public class FindSecondMinArray {
     static int FindSecondMin(int[] arr)

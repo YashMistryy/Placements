@@ -1,4 +1,3 @@
-package DS_ALGO.Array;
 
 import java.util.Arrays;
 

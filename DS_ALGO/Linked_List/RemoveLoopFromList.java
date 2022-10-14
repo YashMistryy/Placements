@@ -1,4 +1,4 @@
-package DS_ALGO.Linked_List;
+package Linked_List;
 // this is floyd loop detection method/algoritm to find loop in a sll
 
 public class RemoveLoopFromList{

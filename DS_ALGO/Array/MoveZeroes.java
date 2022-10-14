@@ -1,4 +1,3 @@
-package DS_ALGO.Array;
 
 public class MoveZeroes {
     static int[] MoveZeroesToEnd(int[] arr){
