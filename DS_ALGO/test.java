@@ -1,29 +1,26 @@
-
+import java.util.Arrays;
 
 public class test {
     public static void main(String[] args) {
-        findOccurence("it is the string which descreibes something meaningful", 't');
-    }
-    static void findOccurence(String str , char ch){
-    int i = 0;
-    int j = str.length()-1;
-
-    while(i<str.length()){
-        if(str.charAt(i) == ch){
-          System.out.println("the first occurence at : "+i);
-          break;
+        // remove duplicates from ascending order array
+        // relative order should be maintained
+        int[] nums = {0,0,1,1};
+        int count = 1 ;
+        int index = 1;
+        for (int i = 0; i < nums.length-1; i++) {
+            int first = nums[i];
+            int second = nums[i+1];
+            if(first!= second){
+                nums[index++] = second;
+                count++;
+            }
         }
        
-        else{
-            i++;
-        }
+        System.out.println(count);
+        System.out.println(Arrays.toString(nums));
+        
+
     }
-    while(j>=0){
-        if(str.charAt(j) == ch){
-            System.out.println("the last occurence : "+j);
-            break;
-        }
-        j--;
-    }
-    }
+
+    
 }
