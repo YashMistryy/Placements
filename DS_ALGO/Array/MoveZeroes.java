@@ -3,11 +3,10 @@ public class MoveZeroes {
     static int[] MoveZeroesToEnd(int[] arr){
         int n = arr.length;
         // i for non-zero values and j for holding zeroes
-        int i = 0;
         int j = 0;
         int temp;
 
-        for(i=0 ; i<n ; i++){
+        for(int i=0 ; i<n ; i++){
             if(arr[i]!=0 && arr[j]==0){
                 temp = arr[i];
                 arr[i] = arr[j];
