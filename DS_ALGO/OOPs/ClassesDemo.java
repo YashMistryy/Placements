@@ -24,22 +24,33 @@ public class ClassesDemo {
         Constructor
             constructors are type of special function used to initialize or create an object
             constructors can be overloaded wiht parameters
+        Wrapper classes
+            java has wrapper classes which allows us to use primitive data types as Objects
+            eg. we can create an integer with Integer class which will have many properties 
+            that primitive int doesnt have.
         
 
 
         *    
         */
-        Cat snowbell = new Cat();
-        // Dog rufus = new Dog();
+        // Cat snowbell = new Cat();
+        // // Dog rufus = new Dog();
 
-        Dog fluffy = new Dog(snowbell);
-        System.out.println(fluffy.sound);
-        System.out.println(fluffy.habitat);
-        System.out.println(fluffy.species_name);
+        // Dog fluffy = new Dog(snowbell);
+        // System.out.println(fluffy.sound);
+        // System.out.println(fluffy.habitat);
+        // System.out.println(fluffy.species_name);
 
 
         // System.out.println(snowbell.habitat);
         // System.out.println(rufus.sound);
+
+        int a = 10;
+        int b = 20;
+
+        Integer x = 10;
+        Integer y = 20;
+        
     }
    
 }
