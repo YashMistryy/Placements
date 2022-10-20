@@ -24,10 +24,18 @@ public class ClassesDemo {
         Constructor
             constructors are type of special function used to initialize or create an object
             constructors can be overloaded wiht parameters
+        Destructor
+            java dont have manual destructor.it does garbage collection and destroys objects when needed
         Wrapper classes
             java has wrapper classes which allows us to use primitive data types as Objects
             eg. we can create an integer with Integer class which will have many properties 
             that primitive int doesnt have.
+        final keyword
+            final keyword defines that the object is unchangeable
+            final int a cannot be modified and if passed onto a function it will be 'pass by value' rather than 'pass by reference'.For primitive the immutabily holds up but for objects this changs.for objects the refernce cannot be changed but the value can be changed.eg final class obj = new class() , we cannot give some other refrence to this object obj like obj = new Other_class() but we can change value in the same object.
+        Garbage collection
+            It free up the space by destroying the objects when space is needed.it is used to increase efficiency.java doesn't support manual garbage collection rather it has a method finalize() to tell java what to do when garbage collecting is happening. C++ supports manual garbage collection
+            
         
 
 
