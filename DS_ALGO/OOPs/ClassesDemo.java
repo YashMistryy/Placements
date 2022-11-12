@@ -35,6 +35,15 @@ public class ClassesDemo {
             final int a cannot be modified and if passed onto a function it will be 'pass by value' rather than 'pass by reference'.For primitive the immutabily holds up but for objects this changs.for objects the refernce cannot be changed but the value can be changed.eg final class obj = new class() , we cannot give some other refrence to this object obj like obj = new Other_class() but we can change value in the same object.
         Garbage collection
             It free up the space by destroying the objects when space is needed.it is used to increase efficiency.java doesn't support manual garbage collection rather it has a method finalize() to tell java what to do when garbage collecting is happening. C++ supports manual garbage collection
+        Static keyword
+            it allows us to use method and properties of a class without making an object of it.
+            static varibles are not dependent on objects
+        main method
+            main method is the first thing that run when a java class is executed.
+            we can have more than one main method
+             a static method can only access a static data
+            Package
+            package is just a compartmentalised folder of classes.It stores classes in different folder apparently.
             
         
 
@@ -58,7 +67,10 @@ public class ClassesDemo {
 
         Integer x = 10;
         Integer y = 20;
-        
+        main(b);
+    }
+    public static void main(int x) {
+        System.out.println(x*x);
     }
    
 }
