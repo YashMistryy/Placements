@@ -1,0 +1,308 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch RomanToDecimal",
+            "request": "launch",
+            "mainClass": "Strings.RomanToDecimal",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch IsPalindrome",
+            "request": "launch",
+            "mainClass": "IsPalindrome",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddElementsToArr",
+            "request": "launch",
+            "mainClass": "AddElementsToArr",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeleteArrayElements",
+            "request": "launch",
+            "mainClass": "DeleteArrayElements",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch DuplicateZerores",
+            "request": "launch",
+            "mainClass": "DuplicateZerores",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindEvenDigitNums",
+            "request": "launch",
+            "mainClass": "FindEvenDigitNums",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMissingNum",
+            "request": "launch",
+            "mainClass": "FindMissingNum",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindSecondMaxArray",
+            "request": "launch",
+            "mainClass": "FindSecondMaxArray",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindSecondMinArray",
+            "request": "launch",
+            "mainClass": "FindSecondMinArray",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeightChecker",
+            "request": "launch",
+            "mainClass": "HeightChecker",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeleteAkeyFrmList",
+            "request": "launch",
+            "mainClass": "Linked_List.DeleteAkeyFrmList",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeleteNodeList",
+            "request": "launch",
+            "mainClass": "Linked_List.DeleteNodeList",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch DetectLoopInList",
+            "request": "launch",
+            "mainClass": "Linked_List.DetectLoopInList",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindStartingOfLoopList",
+            "request": "launch",
+            "mainClass": "Linked_List.FindStartingOfLoopList",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertNodeInSortedList",
+            "request": "launch",
+            "mainClass": "Linked_List.InsertNodeInSortedList",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertNodeList",
+            "request": "launch",
+            "mainClass": "Linked_List.InsertNodeList",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch LengthOfLl",
+            "request": "launch",
+            "mainClass": "Linked_List.LengthOfLl",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeTwoSortedList",
+            "request": "launch",
+            "mainClass": "Linked_List.MergeTwoSortedList",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch MiddleOfList",
+            "request": "launch",
+            "mainClass": "Linked_List.MiddleOfList",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDuplicateNodes",
+            "request": "launch",
+            "mainClass": "Linked_List.RemoveDuplicateNodes",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveLoopFromList",
+            "request": "launch",
+            "mainClass": "Linked_List.RemoveLoopFromList",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseAList",
+            "request": "launch",
+            "mainClass": "Linked_List.ReverseAList",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInList",
+            "request": "launch",
+            "mainClass": "Linked_List.SearchInList",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SinglyLinkedList",
+            "request": "launch",
+            "mainClass": "Linked_List.SinglyLinkedList",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "Linked_List.test",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSortedArr",
+            "request": "launch",
+            "mainClass": "MergeSortedArr",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumInArray",
+            "request": "launch",
+            "mainClass": "MinimumInArray",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch MoveZeroes",
+            "request": "launch",
+            "mainClass": "MoveZeroes",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClassesDemo",
+            "request": "launch",
+            "mainClass": "OOPs.ClassesDemo",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch TowerOfHanoi",
+            "request": "launch",
+            "mainClass": "Recursion.TowerOfHanoi",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDuplcatesInPlace",
+            "request": "launch",
+            "mainClass": "RemoveDuplcatesInPlace",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveElementFrmArr",
+            "request": "launch",
+            "mainClass": "RemoveElementFrmArr",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveEvenArr",
+            "request": "launch",
+            "mainClass": "RemoveEvenArr",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReplaceArrayElements",
+            "request": "launch",
+            "mainClass": "ReplaceArrayElements",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ResizeAnArray",
+            "request": "launch",
+            "mainClass": "ResizeAnArray",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseArray2",
+            "request": "launch",
+            "mainClass": "ReverseArray2",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortByParity",
+            "request": "launch",
+            "mainClass": "SortByParity",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch IfPalindrome",
+            "request": "launch",
+            "mainClass": "Strings.IfPalindrome",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThirdMaximumNum",
+            "request": "launch",
+            "mainClass": "ThirdMaximumNum",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Twosum",
+            "request": "launch",
+            "mainClass": "Twosum",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch test(1)",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "DS_ALGO_d4d8f80b"
+        }
+    ]
+}
