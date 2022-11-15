@@ -33,6 +33,8 @@ public class ClassesDemo {
         final keyword
             final keyword defines that the object is unchangeable
             final int a cannot be modified and if passed onto a function it will be 'pass by value' rather than 'pass by reference'.For primitive the immutabily holds up but for objects this changs.for objects the refernce cannot be changed but the value can be changed.eg final class obj = new class() , we cannot give some other refrence to this object obj like obj = new Other_class() but we can change value in the same object.
+            final before any method prevent it from overriding 
+            final before any class prevent it from being extended
         Garbage collection
             It free up the space by destroying the objects when space is needed.it is used to increase efficiency.java doesn't support manual garbage collection rather it has a method finalize() to tell java what to do when garbage collecting is happening. C++ supports manual garbage collection
         Static keyword

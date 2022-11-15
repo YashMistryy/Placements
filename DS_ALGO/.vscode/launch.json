@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfTwo",
+            "request": "launch",
+            "mainClass": "Linked_List.SumOfTwo",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
             "name": "Launch RomanToDecimal",
             "request": "launch",
             "mainClass": "Strings.RomanToDecimal",
