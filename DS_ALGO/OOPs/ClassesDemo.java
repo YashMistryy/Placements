@@ -40,6 +40,7 @@ public class ClassesDemo {
         Static keyword
             it allows us to use method and properties of a class without making an object of it.
             static varibles are not dependent on objects
+            static against a method prevent it from overriding
         main method
             main method is the first thing that run when a java class is executed.
             we can have more than one main method

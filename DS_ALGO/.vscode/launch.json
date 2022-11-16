@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Arraylist.Main",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
             "name": "Launch demo",
             "request": "launch",
             "mainClass": "demo",
