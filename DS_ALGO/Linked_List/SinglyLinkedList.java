@@ -49,9 +49,25 @@ public class SinglyLinkedList {
     //        System.out.print(ptr.data);
     //        ptr = ptr.next;
     //    }   
+        // mySll.InsertRec(head, 69, 4-1);
+
         display(head);
 
 
     }
-    
+    static void InsertRec(int val , int index){
+        InsertRec(head, val, index);
+    }
+    static ListNode InsertRec(ListNode node , int val , int index){
+        ListNode ptr = node;//this will be head in first call
+      
+        if(index == 0){
+            ListNode nodex = new ListNode(val);
+            nodex.next = ptr.next;
+            ptr.next = nodex;
+            return ptr;
+        }
+        head = InsertRec(ptr.next, val, index-1);
+        return head;
+    }
 }
