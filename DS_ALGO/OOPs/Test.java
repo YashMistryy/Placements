@@ -1,9 +1,19 @@
 package OOPs;
 
-public class Test {
+public class Test extends A{
+
+    @Override
+    void display() {
+        // TODO Auto-generated method stub
+        
+    }
+
+ 
     
 }
- class A{
-   abstract void display(){System.out.println("this is display!");}
-    void printItem(){System.out.println("printing item!");}
+ abstract class A{
+    int raju;
+   abstract void display();
+     void printItem(){};
+
 }
