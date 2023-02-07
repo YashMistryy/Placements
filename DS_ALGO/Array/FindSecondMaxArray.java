@@ -1,5 +1,4 @@
 
-
 public class FindSecondMaxArray {
     static int findSecondMax(int[] arr){
         int n = arr.length;
@@ -10,9 +9,9 @@ public class FindSecondMaxArray {
                 SecondMax = max;
                 max = arr[i];
             }
-            // else if(arr[i]>SecondMax && arr[i]!=max){
-            //     SecondMax = arr[i];
-            // }
+            else if(arr[i]>SecondMax && arr[i]!=max){
+                SecondMax = arr[i];
+            }
         }
        
          return SecondMax;
@@ -21,7 +20,7 @@ public class FindSecondMaxArray {
 
 
     public static void main(String[] args) {
-        int[] myArr = {343,2,5,56546,56546,56546,3,243,242,3,5,89,68,6,6};
+        int[] myArr = {2,5,56546};
        System.out.println( findSecondMax(myArr));
     }
     

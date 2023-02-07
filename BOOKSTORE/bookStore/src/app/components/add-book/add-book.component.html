@@ -15,6 +15,13 @@
         <label for="">PRICE</label><br>
         <input type="number" formControlName = "price" required><br>
     </div>
+    <label for="genre">GENRE</label><br>
+    <select name="genre" id="genre" #genre (change)="onSelected(genre.value)">
+        <option value="horror">horror</option>
+        <option value="fiction">fiction</option>
+        <option value="spiritual">spiritual</option>
+        <option value="non-fiction">non-fiction</option>
+      </select>
     <div class="form-group">
         <label for="">Date Of Release</label><br>
         <input type="text" formControlName = "dateOfRelease" required>

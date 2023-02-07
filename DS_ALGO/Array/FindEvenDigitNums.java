@@ -10,6 +10,7 @@ public class FindEvenDigitNums {
             while(i>=0){
                 i = i/10;
                 digitCount++;
+                // System.out.println("helloo");
            }
            if(digitCount%2 == 0)count++;
         }

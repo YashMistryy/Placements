@@ -16,10 +16,14 @@ export class AddBookComponent implements OnInit {
     private ngZone:NgZone,private crudApi:CrudService) {
 
       this.bookForm = this.formBuilder.group({
-        title:[''],price:[''],isbn:[''],dateOfRelease:['']
+        title:[''],price:[''],isbn:[''],dateOfRelease:[''],genre:['']
       })
     }
-  
+    selectedGenre = '';
+    onSelected(value:string): void {
+      this.bookForm.setValue() = value;
+       console.log(value)  
+  }
   ngOnInit(): void {
    
   }

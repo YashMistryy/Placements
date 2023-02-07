@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class HeightChecker {
     public static void main(String[] args) {
         // height checker checks if the indices are at correct position or not
-        int[] nums = {1,3,2,5};
+        int[] nums = {1,3,2,5,6};
         checkHeight(nums);
     }
 

@@ -6,7 +6,6 @@ class AddElementsToArr{
 
         // add in the end
     //    System.out.println(Arrays.toString(addAtEnd(69 , nums)));
-
     // add at the begining of array
     System.out.println(Arrays.toString(addAtBegin(0,nums))); 
     }

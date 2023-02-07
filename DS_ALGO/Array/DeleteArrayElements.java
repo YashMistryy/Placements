@@ -9,7 +9,8 @@ public static void main(String[] args) {
     // deleteAtBegin(nums);
     // deleteAtEnd(nums);
     deleteAtAny(nums , 4);
-    System.out.println(Arrays.toString(nums));
+    deleteAtEnd(nums);
+    // System.out.println(Arrays.toString(nums));
     
 }
 
