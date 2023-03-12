@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "setBits",
+            "request": "launch",
+            "mainClass": "BitwiseOperations.setBits",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "findBits",
+            "request": "launch",
+            "mainClass": "BitwiseOperations.findBits",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "findUnique",
+            "request": "launch",
+            "mainClass": "BitwiseOperations.findUnique",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "oddOrEven",
+            "request": "launch",
+            "mainClass": "BitwiseOperations.oddOrEven",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
+            "name": "findKthLargest",
+            "request": "launch",
+            "mainClass": "findKthLargest",
+            "projectName": "DS_ALGO_d4d8f80b"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "Arraylist.Main",
